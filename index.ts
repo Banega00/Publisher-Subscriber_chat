@@ -7,7 +7,6 @@ const std = readline.createInterface({
 
 const readUserInput = (user:User) =>{
   std.question('', (text) =>{
-    console.log(text);
     if(text == 'exit') {
       std.close();
       return;
