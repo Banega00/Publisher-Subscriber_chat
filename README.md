@@ -3,6 +3,7 @@ Simple chat application based on Publisher-Subscriber paradigm.
 
 Application uses redis messaging system for implementing Pub/Sub paradigm.
 
+All users subscribes to redis messaging channel, where they listetning for messages sent by other users and publish their own messages
 ## Technologies
 [![My Skills](https://skillicons.dev/icons?i=nodejs,ts,redis)](https://skillicons.dev)
 - NodeJS 
